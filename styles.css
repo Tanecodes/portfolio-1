@@ -1,24 +1,55 @@
-* {
+*{
   margin: 0;
   padding: 0;
   color: white;
 }
 
-body {
+body{
   height: 100vh;
   background: black;
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
+  margin: 15px 15px;
 }
 
-.hero {
+.hero{
+  display: flex;
+  border: 1px solid white;
+  box-shadow: 0px 0px 20px white;
+  padding: 30px 30px;
+  gap: 20px;
+}
+
+.title{
+  border: none;
+  box-shadow: 0px 0px 15px white;
+}
+
+.title p{
+  font-size: 100px;
+  font-weight: 900;
+  border: solid 1px;
+}
+
+.port{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.hero h1 {
-  font-size: 50px;
+.folio{
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.italic-text-container{
+  display: flex;
+  align-self: flex-end;
+}
+
+.italic-text{
+font-size: 50px;
+font-family: 'dancing script' ,cursive;
+font-style: italic;
 }
