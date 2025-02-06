@@ -97,6 +97,33 @@ font-style: italic;
   border-radius: 15px;
 }
 
-.icons i{
+i{
   font-size: 65px;
+}
+
+.task-bar{
+  display: flex;
+  width: fit-content;
+  align-self: center;
+  gap: 20px;
+  background-color: white;
+  padding: 5px 10px;  
+  border-radius: 15px;
+}
+
+.task-bar i{
+ display: inline-block;
+ transition: transform 0.3s ease-in-out;
+}
+
+.task-bar i:hover{
+  transform: scale(0.8);
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
 }
